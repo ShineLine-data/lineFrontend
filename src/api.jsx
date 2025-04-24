@@ -2,7 +2,7 @@
 import axios from "axios";
 const axiosInstance = axios.create({
     /*baseURL: "http://127.0.0.1:8000/api/",*/
-	baseURL: "http://backend:8000/api",
+	baseURL: "http://jenkins_backend_app:8000/api",
 });
 
 export const UseAxios = () => {

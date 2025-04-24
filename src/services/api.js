@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
  /* baseURL: 'http://localhost:8000/api', */
-	baseURL: 'http://backend:8000/api',
+	baseURL: 'http://jenkins_backend_app:8000/api',
 });
 
 
